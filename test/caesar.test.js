@@ -21,8 +21,8 @@ describe('Caesar Shift', () => {
     })
 
       it(`(This is a secret message!, 8) should be: bpqa qa i amkzmb umaaiom!`, () => {
-        let actual = caesar("This is a secret messge!", 8);
-        let expected = 'bpqa qa i amkzmb umaaom!';
+        let actual = caesar("This is a secret message!", 8);
+        let expected = 'bpqa qa i amkzmb umaaiom!';
         expect(actual).to.equal(expected);
     })
 
@@ -54,14 +54,14 @@ describe('Caesar Shift', () => {
         const actual = caesar("qefkhcri", -3, false);
         const expected = "thinkful";
       expect(actual).to.equal(expected);
-    });
+    })
     
     it("should be able to compensate for letters at the end of the alphabet", () => {
        const actual = caesar("cheud pdjdclqh", 3, false);
        const expected = "zebra magazine";
        expect(actual).to.equal(expected);
-    });       
-    
+    });  
+          
 })
 
 
