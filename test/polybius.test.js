@@ -29,6 +29,6 @@ describe ('Polybius', () => {
     it("44324233521254134", () => {
         const actual = polybius("44324233521254134", false);
         const expected = false
-        expect(actual).to.eql(expected) ;
+        expect(actual).to.be.false;
     })
 });

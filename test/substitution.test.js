@@ -35,13 +35,13 @@ describe('substitution', () => {
     it("too short", () => {
         const actual = substitution("thinkful", "short")
         const expected = false
-        expect(actual).to.equal(expected)
+        expect(actual).to.be.false
     })
 
     it("duplicates", () => {
         const actual = substitution("thinkful", "abcabcabcabcabcabcabcabcyz")
         const expected = false
-        expect(actual).to.equal(expected)
+        expect(actual).to.be.false
     })
 
 

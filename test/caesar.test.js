@@ -29,13 +29,13 @@ describe('Caesar Shift', () => {
     it(`(thinkful) should be: false`, () => {
         let actual = caesar("thinkful")
         let expected = false 
-        expect(actual).to.equal(expected)
+        expect(actual).to.be.false;
     })
 
     it(`(thinkful, 99) should be: false`, () => {
         let actual = caesar("thinkful", 99)
         let expected = false
-        expect(actual).to.equal(expected)
+        expect(actual).to.be.false
     })
 
     it(`(thinkful, -26) should be: false`, () => {
