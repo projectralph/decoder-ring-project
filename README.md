@@ -1,4 +1,4 @@
-# project-decoder-ring
+# Project-Decoder-Ring
 
 ## Introduction
 
